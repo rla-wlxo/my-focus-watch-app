@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C35F302F865156006A335E /* FocusTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F2F2F865156006A335E /* FocusTrackerApp.swift */; };
+		46C35F322F865156006A335E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F312F865156006A335E /* ContentView.swift */; };
+		46C35F342F865158006A335E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C35F332F865158006A335E /* Assets.xcassets */; };
+		46C35F372F865158006A335E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C35F362F865158006A335E /* Preview Assets.xcassets */; };
+		46C35F412F865158006A335E /* FocusTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F402F865158006A335E /* FocusTrackerTests.swift */; };
+		46C35F4B2F865158006A335E /* FocusTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F4A2F865158006A335E /* FocusTrackerUITests.swift */; };
+		46C35F4D2F865158006A335E /* FocusTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F4C2F865158006A335E /* FocusTrackerUITestsLaunchTests.swift */; };
+		46C35F532F865158006A335E /* FocusTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46C35F522F865158006A335E /* FocusTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46C35F582F865158006A335E /* FocusTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F572F865158006A335E /* FocusTrackerApp.swift */; };
+		46C35F5A2F865158006A335E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F592F865158006A335E /* ContentView.swift */; };
+		46C35F5C2F86515A006A335E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C35F5B2F86515A006A335E /* Assets.xcassets */; };
+		46C35F5F2F86515A006A335E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C35F5E2F86515A006A335E /* Preview Assets.xcassets */; };
+		46C35F692F86515B006A335E /* FocusTracker_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F682F86515B006A335E /* FocusTracker_Watch_AppTests.swift */; };
+		46C35F732F86515B006A335E /* FocusTracker_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F722F86515B006A335E /* FocusTracker_Watch_AppUITests.swift */; };
+		46C35F752F86515B006A335E /* FocusTracker_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F742F86515B006A335E /* FocusTracker_Watch_AppUITestsLaunchTests.swift */; };
+		46C35F8E2F866489006A335E /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F8D2F866489006A335E /* HealthKitManager.swift */; };
+		46C35F902F877D98006A335E /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F8F2F877D98006A335E /* PhoneConnector.swift */; };
+		46C35F912F877D98006A335E /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C35F8F2F877D98006A335E /* PhoneConnector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46C35F3D2F865158006A335E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C35F242F865155006A335E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C35F2B2F865156006A335E;
+			remoteInfo = FocusTracker;
+		};
+		46C35F472F865158006A335E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C35F242F865155006A335E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C35F2B2F865156006A335E;
+			remoteInfo = FocusTracker;
+		};
+		46C35F542F865158006A335E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C35F242F865155006A335E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C35F512F865158006A335E;
+			remoteInfo = "FocusTracker Watch App";
+		};
+		46C35F652F86515B006A335E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C35F242F865155006A335E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C35F512F865158006A335E;
+			remoteInfo = "FocusTracker Watch App";
+		};
+		46C35F6F2F86515B006A335E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C35F242F865155006A335E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C35F512F865158006A335E;
+			remoteInfo = "FocusTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46C35F7B2F86515B006A335E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				46C35F532F865158006A335E /* FocusTracker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46C35F2C2F865156006A335E /* FocusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C35F2F2F865156006A335E /* FocusTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTrackerApp.swift; sourceTree = "<group>"; };
+		46C35F312F865156006A335E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46C35F332F865158006A335E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C35F362F865158006A335E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46C35F3C2F865158006A335E /* FocusTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C35F402F865158006A335E /* FocusTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTrackerTests.swift; sourceTree = "<group>"; };
+		46C35F462F865158006A335E /* FocusTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C35F4A2F865158006A335E /* FocusTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTrackerUITests.swift; sourceTree = "<group>"; };
+		46C35F4C2F865158006A335E /* FocusTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46C35F522F865158006A335E /* FocusTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FocusTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C35F572F865158006A335E /* FocusTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTrackerApp.swift; sourceTree = "<group>"; };
+		46C35F592F865158006A335E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46C35F5B2F86515A006A335E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C35F5E2F86515A006A335E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46C35F642F86515B006A335E /* FocusTracker Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FocusTracker Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C35F682F86515B006A335E /* FocusTracker_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTracker_Watch_AppTests.swift; sourceTree = "<group>"; };
+		46C35F6E2F86515B006A335E /* FocusTracker Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FocusTracker Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C35F722F86515B006A335E /* FocusTracker_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTracker_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		46C35F742F86515B006A335E /* FocusTracker_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTracker_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46C35F8B2F865E04006A335E /* FocusTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusTracker.entitlements; sourceTree = "<group>"; };
+		46C35F8C2F865F0B006A335E /* FocusTracker Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FocusTracker Watch App.entitlements"; sourceTree = "<group>"; };
+		46C35F8D2F866489006A335E /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		46C35F8F2F877D98006A335E /* PhoneConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C35F292F865156006A335E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F392F865158006A335E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F432F865158006A335E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F4F2F865158006A335E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F612F86515B006A335E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F6B2F86515B006A335E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46C35F232F865155006A335E = {
+			isa = PBXGroup;
+			children = (
+				46C35F2E2F865156006A335E /* FocusTracker */,
+				46C35F3F2F865158006A335E /* FocusTrackerTests */,
+				46C35F492F865158006A335E /* FocusTrackerUITests */,
+				46C35F562F865158006A335E /* FocusTracker Watch App */,
+				46C35F672F86515B006A335E /* FocusTracker Watch AppTests */,
+				46C35F712F86515B006A335E /* FocusTracker Watch AppUITests */,
+				46C35F2D2F865156006A335E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46C35F2D2F865156006A335E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F2C2F865156006A335E /* FocusTracker.app */,
+				46C35F3C2F865158006A335E /* FocusTrackerTests.xctest */,
+				46C35F462F865158006A335E /* FocusTrackerUITests.xctest */,
+				46C35F522F865158006A335E /* FocusTracker Watch App.app */,
+				46C35F642F86515B006A335E /* FocusTracker Watch AppTests.xctest */,
+				46C35F6E2F86515B006A335E /* FocusTracker Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C35F2E2F865156006A335E /* FocusTracker */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F8B2F865E04006A335E /* FocusTracker.entitlements */,
+				46C35F2F2F865156006A335E /* FocusTrackerApp.swift */,
+				46C35F312F865156006A335E /* ContentView.swift */,
+				46C35F332F865158006A335E /* Assets.xcassets */,
+				46C35F352F865158006A335E /* Preview Content */,
+			);
+			path = FocusTracker;
+			sourceTree = "<group>";
+		};
+		46C35F352F865158006A335E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F362F865158006A335E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46C35F3F2F865158006A335E /* FocusTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F402F865158006A335E /* FocusTrackerTests.swift */,
+			);
+			path = FocusTrackerTests;
+			sourceTree = "<group>";
+		};
+		46C35F492F865158006A335E /* FocusTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F4A2F865158006A335E /* FocusTrackerUITests.swift */,
+				46C35F4C2F865158006A335E /* FocusTrackerUITestsLaunchTests.swift */,
+			);
+			path = FocusTrackerUITests;
+			sourceTree = "<group>";
+		};
+		46C35F562F865158006A335E /* FocusTracker Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F8C2F865F0B006A335E /* FocusTracker Watch App.entitlements */,
+				46C35F572F865158006A335E /* FocusTrackerApp.swift */,
+				46C35F592F865158006A335E /* ContentView.swift */,
+				46C35F5B2F86515A006A335E /* Assets.xcassets */,
+				46C35F5D2F86515A006A335E /* Preview Content */,
+				46C35F8D2F866489006A335E /* HealthKitManager.swift */,
+				46C35F8F2F877D98006A335E /* PhoneConnector.swift */,
+			);
+			path = "FocusTracker Watch App";
+			sourceTree = "<group>";
+		};
+		46C35F5D2F86515A006A335E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F5E2F86515A006A335E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46C35F672F86515B006A335E /* FocusTracker Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F682F86515B006A335E /* FocusTracker_Watch_AppTests.swift */,
+			);
+			path = "FocusTracker Watch AppTests";
+			sourceTree = "<group>";
+		};
+		46C35F712F86515B006A335E /* FocusTracker Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46C35F722F86515B006A335E /* FocusTracker_Watch_AppUITests.swift */,
+				46C35F742F86515B006A335E /* FocusTracker_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "FocusTracker Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C35F2B2F865156006A335E /* FocusTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C35F7C2F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker" */;
+			buildPhases = (
+				46C35F282F865156006A335E /* Sources */,
+				46C35F292F865156006A335E /* Frameworks */,
+				46C35F2A2F865156006A335E /* Resources */,
+				46C35F7B2F86515B006A335E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C35F552F865158006A335E /* PBXTargetDependency */,
+			);
+			name = FocusTracker;
+			productName = FocusTracker;
+			productReference = 46C35F2C2F865156006A335E /* FocusTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46C35F3B2F865158006A335E /* FocusTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C35F7F2F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTrackerTests" */;
+			buildPhases = (
+				46C35F382F865158006A335E /* Sources */,
+				46C35F392F865158006A335E /* Frameworks */,
+				46C35F3A2F865158006A335E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C35F3E2F865158006A335E /* PBXTargetDependency */,
+			);
+			name = FocusTrackerTests;
+			productName = FocusTrackerTests;
+			productReference = 46C35F3C2F865158006A335E /* FocusTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46C35F452F865158006A335E /* FocusTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C35F822F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTrackerUITests" */;
+			buildPhases = (
+				46C35F422F865158006A335E /* Sources */,
+				46C35F432F865158006A335E /* Frameworks */,
+				46C35F442F865158006A335E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C35F482F865158006A335E /* PBXTargetDependency */,
+			);
+			name = FocusTrackerUITests;
+			productName = FocusTrackerUITests;
+			productReference = 46C35F462F865158006A335E /* FocusTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		46C35F512F865158006A335E /* FocusTracker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C35F782F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker Watch App" */;
+			buildPhases = (
+				46C35F4E2F865158006A335E /* Sources */,
+				46C35F4F2F865158006A335E /* Frameworks */,
+				46C35F502F865158006A335E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FocusTracker Watch App";
+			productName = "FocusTracker Watch App";
+			productReference = 46C35F522F865158006A335E /* FocusTracker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46C35F632F86515B006A335E /* FocusTracker Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C35F852F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker Watch AppTests" */;
+			buildPhases = (
+				46C35F602F86515B006A335E /* Sources */,
+				46C35F612F86515B006A335E /* Frameworks */,
+				46C35F622F86515B006A335E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C35F662F86515B006A335E /* PBXTargetDependency */,
+			);
+			name = "FocusTracker Watch AppTests";
+			productName = "FocusTracker Watch AppTests";
+			productReference = 46C35F642F86515B006A335E /* FocusTracker Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46C35F6D2F86515B006A335E /* FocusTracker Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C35F882F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker Watch AppUITests" */;
+			buildPhases = (
+				46C35F6A2F86515B006A335E /* Sources */,
+				46C35F6B2F86515B006A335E /* Frameworks */,
+				46C35F6C2F86515B006A335E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C35F702F86515B006A335E /* PBXTargetDependency */,
+			);
+			name = "FocusTracker Watch AppUITests";
+			productName = "FocusTracker Watch AppUITests";
+			productReference = 46C35F6E2F86515B006A335E /* FocusTracker Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46C35F242F865155006A335E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					46C35F2B2F865156006A335E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					46C35F3B2F865158006A335E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 46C35F2B2F865156006A335E;
+					};
+					46C35F452F865158006A335E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 46C35F2B2F865156006A335E;
+					};
+					46C35F512F865158006A335E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					46C35F632F86515B006A335E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 46C35F512F865158006A335E;
+					};
+					46C35F6D2F86515B006A335E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 46C35F512F865158006A335E;
+					};
+				};
+			};
+			buildConfigurationList = 46C35F272F865155006A335E /* Build configuration list for PBXProject "FocusTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46C35F232F865155006A335E;
+			productRefGroup = 46C35F2D2F865156006A335E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46C35F2B2F865156006A335E /* FocusTracker */,
+				46C35F3B2F865158006A335E /* FocusTrackerTests */,
+				46C35F452F865158006A335E /* FocusTrackerUITests */,
+				46C35F512F865158006A335E /* FocusTracker Watch App */,
+				46C35F632F86515B006A335E /* FocusTracker Watch AppTests */,
+				46C35F6D2F86515B006A335E /* FocusTracker Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46C35F2A2F865156006A335E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F372F865158006A335E /* Preview Assets.xcassets in Resources */,
+				46C35F342F865158006A335E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F3A2F865158006A335E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F442F865158006A335E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F502F865158006A335E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F5F2F86515A006A335E /* Preview Assets.xcassets in Resources */,
+				46C35F5C2F86515A006A335E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F622F86515B006A335E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F6C2F86515B006A335E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46C35F282F865156006A335E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F322F865156006A335E /* ContentView.swift in Sources */,
+				46C35F302F865156006A335E /* FocusTrackerApp.swift in Sources */,
+				46C35F902F877D98006A335E /* PhoneConnector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F382F865158006A335E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F412F865158006A335E /* FocusTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F422F865158006A335E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F4D2F865158006A335E /* FocusTrackerUITestsLaunchTests.swift in Sources */,
+				46C35F4B2F865158006A335E /* FocusTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F4E2F865158006A335E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F912F877D98006A335E /* PhoneConnector.swift in Sources */,
+				46C35F5A2F865158006A335E /* ContentView.swift in Sources */,
+				46C35F582F865158006A335E /* FocusTrackerApp.swift in Sources */,
+				46C35F8E2F866489006A335E /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F602F86515B006A335E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F692F86515B006A335E /* FocusTracker_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C35F6A2F86515B006A335E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C35F752F86515B006A335E /* FocusTracker_Watch_AppUITestsLaunchTests.swift in Sources */,
+				46C35F732F86515B006A335E /* FocusTracker_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46C35F3E2F865158006A335E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C35F2B2F865156006A335E /* FocusTracker */;
+			targetProxy = 46C35F3D2F865158006A335E /* PBXContainerItemProxy */;
+		};
+		46C35F482F865158006A335E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C35F2B2F865156006A335E /* FocusTracker */;
+			targetProxy = 46C35F472F865158006A335E /* PBXContainerItemProxy */;
+		};
+		46C35F552F865158006A335E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C35F512F865158006A335E /* FocusTracker Watch App */;
+			targetProxy = 46C35F542F865158006A335E /* PBXContainerItemProxy */;
+		};
+		46C35F662F86515B006A335E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C35F512F865158006A335E /* FocusTracker Watch App */;
+			targetProxy = 46C35F652F86515B006A335E /* PBXContainerItemProxy */;
+		};
+		46C35F702F86515B006A335E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C35F512F865158006A335E /* FocusTracker Watch App */;
+			targetProxy = 46C35F6F2F86515B006A335E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46C35F762F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46C35F772F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		46C35F792F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FocusTracker Watch App/FocusTracker Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTracker Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusTracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = BJ.FocusTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		46C35F7A2F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FocusTracker Watch App/FocusTracker Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTracker Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusTracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = BJ.FocusTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		46C35F7D2F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusTracker/FocusTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusTracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46C35F7E2F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusTracker/FocusTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusTracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "집중력 분석을 위해 심박수 데이터를 확인합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C35F802F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTracker";
+			};
+			name = Debug;
+		};
+		46C35F812F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTracker";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C35F832F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FocusTracker;
+			};
+			name = Debug;
+		};
+		46C35F842F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BJ.FocusTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FocusTracker;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C35F862F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BJ.FocusTracker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTracker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTracker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		46C35F872F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BJ.FocusTracker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTracker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTracker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		46C35F892F86515B006A335E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BJ.FocusTracker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FocusTracker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		46C35F8A2F86515B006A335E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BJ.FocusTracker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FocusTracker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C35F272F865155006A335E /* Build configuration list for PBXProject "FocusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F762F86515B006A335E /* Debug */,
+				46C35F772F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C35F782F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F792F86515B006A335E /* Debug */,
+				46C35F7A2F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C35F7C2F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F7D2F86515B006A335E /* Debug */,
+				46C35F7E2F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C35F7F2F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F802F86515B006A335E /* Debug */,
+				46C35F812F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C35F822F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F832F86515B006A335E /* Debug */,
+				46C35F842F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C35F852F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F862F86515B006A335E /* Debug */,
+				46C35F872F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C35F882F86515B006A335E /* Build configuration list for PBXNativeTarget "FocusTracker Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C35F892F86515B006A335E /* Debug */,
+				46C35F8A2F86515B006A335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46C35F242F865155006A335E /* Project object */;
+}
